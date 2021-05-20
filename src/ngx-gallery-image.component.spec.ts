@@ -1,5 +1,5 @@
 import {} from 'jasmine';
-import { Renderer } from '@angular/core';
+import { Renderer2 } from '@angular/core';
 import { TestBed, ComponentFixture } from '@angular/core/testing';
 import { HammerGestureConfig, HAMMER_GESTURE_CONFIG } from '@angular/platform-browser';
 import { NgxGalleryActionComponent, NgxGalleryImageComponent, NgxGalleryArrowsComponent, NgxGalleryBulletsComponent, NgxGalleryHelperService,
@@ -10,7 +10,7 @@ export class CustomHammerConfig extends HammerGestureConfig  {
         'pinch': { enable: false },
         'rotate': { enable: false }
     };
-  }
+}
 
 describe('NgxGalleryImageComponent', () => {
     let fixture: ComponentFixture<NgxGalleryImageComponent>;
@@ -19,21 +19,21 @@ describe('NgxGalleryImageComponent', () => {
 
     beforeEach(() => {
         TestBed.configureTestingModule({
-          declarations: [ NgxGalleryImageComponent, NgxGalleryArrowsComponent, NgxGalleryBulletsComponent, NgxGalleryActionComponent ],
-          providers: [ NgxGalleryHelperService, Renderer,
-            { provide: HAMMER_GESTURE_CONFIG, useClass: CustomHammerConfig } ]
+            declarations: [ NgxGalleryImageComponent, NgxGalleryArrowsComponent, NgxGalleryBulletsComponent, NgxGalleryActionComponent ],
+            providers: [ NgxGalleryHelperService, Renderer2,
+                { provide: HAMMER_GESTURE_CONFIG, useClass: CustomHammerConfig } ]
         })
-        .overrideComponent(NgxGalleryImageComponent, {
-            set: {
-                styleUrls: [],
-            }
-        })
+            .overrideComponent(NgxGalleryImageComponent, {
+                set: {
+                    styleUrls: [],
+                }
+            })
 
         fixture = TestBed.createComponent(NgxGalleryImageComponent);
         comp = fixture.componentInstance;
         comp.images = [new NgxGalleryOrderedImage({ src: 'image-1.jpg', index: 0}),
-        new NgxGalleryOrderedImage({ src: 'image-2.jpg', index: 1}),
-        new NgxGalleryOrderedImage({ src: 'image-3.jpg', index: 2})];
+            new NgxGalleryOrderedImage({ src: 'image-2.jpg', index: 1}),
+            new NgxGalleryOrderedImage({ src: 'image-3.jpg', index: 2})];
         el = fixture.debugElement.nativeElement;
     });
 

@@ -1,4 +1,4 @@
-import { ChangeDetectorRef, Component, Input, Output, EventEmitter, OnInit, OnChanges, SimpleChanges, ElementRef, HostListener, ViewChild, Renderer } from '@angular/core';
+import { ChangeDetectorRef, Component, Input, Output, EventEmitter, OnInit, OnChanges, SimpleChanges, ElementRef, HostListener, ViewChild, Renderer2 } from '@angular/core';
 import { SafeResourceUrl, DomSanitizer, SafeUrl, SafeStyle } from '@angular/platform-browser';
 
 import { NgxGalleryAction } from './ngx-gallery-action.model';
@@ -100,8 +100,8 @@ export class NgxGalleryPreviewComponent implements OnInit, OnChanges {
     private keyDownListener: Function;
 
     constructor(private sanitization: DomSanitizer, private elementRef: ElementRef,
-        private helperService: NgxGalleryHelperService, private renderer: Renderer,
-        private changeDetectorRef: ChangeDetectorRef) {}
+                private helperService: NgxGalleryHelperService, private renderer: Renderer2,
+                private changeDetectorRef: ChangeDetectorRef) {}
 
     ngOnInit(): void {
         if (this.arrows && this.arrowsAutoHide) {
@@ -112,7 +112,7 @@ export class NgxGalleryPreviewComponent implements OnInit, OnChanges {
     ngOnChanges(changes: SimpleChanges): void {
         if (changes['swipe']) {
             this.helperService.manageSwipe(this.swipe, this.elementRef,
-            'preview', () => this.showNext(), () => this.showPrev());
+                'preview', () => this.showNext(), () => this.showPrev());
         }
     }
 
@@ -160,7 +160,7 @@ export class NgxGalleryPreviewComponent implements OnInit, OnChanges {
             this.manageFullscreen();
         }
 
-        this.keyDownListener = this.renderer.listenGlobal("window", "keydown", (e) => this.onKeyDown(e));
+        this.keyDownListener = this.renderer.listen("window", "keydown", (e) => this.onKeyDown(e));
     }
 
     close(): void {
