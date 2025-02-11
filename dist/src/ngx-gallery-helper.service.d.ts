@@ -9,8 +9,8 @@ export declare class NgxGalleryHelperService {
     getBackgroundUrl(image: string): string;
     private getSwipeHandlers;
     private removeSwipeHandlers;
-    static ɵfac: ɵngcc0.ɵɵFactoryDef<NgxGalleryHelperService, never>;
-    static ɵprov: ɵngcc0.ɵɵInjectableDef<NgxGalleryHelperService>;
+    static ɵfac: ɵngcc0.ɵɵFactoryDeclaration<NgxGalleryHelperService, never>;
+    static ɵprov: ɵngcc0.ɵɵInjectableDeclaration<NgxGalleryHelperService>;
 }
 
 //# sourceMappingURL=ngx-gallery-helper.service.d.ts.map

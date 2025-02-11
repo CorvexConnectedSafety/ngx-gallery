@@ -60,8 +60,8 @@ export declare class NgxGalleryThumbnailsComponent implements OnChanges {
     private getMaxIndex;
     private getVisibleCount;
     private getSafeStyle;
-    static ɵfac: ɵngcc0.ɵɵFactoryDef<NgxGalleryThumbnailsComponent, never>;
-    static ɵcmp: ɵngcc0.ɵɵComponentDefWithMeta<NgxGalleryThumbnailsComponent, "ngx-gallery-thumbnails", never, { "selectedIndex": "selectedIndex"; "images": "images"; "links": "links"; "labels": "labels"; "linkTarget": "linkTarget"; "columns": "columns"; "rows": "rows"; "arrows": "arrows"; "arrowsAutoHide": "arrowsAutoHide"; "margin": "margin"; "clickable": "clickable"; "swipe": "swipe"; "size": "size"; "arrowPrevIcon": "arrowPrevIcon"; "arrowNextIcon": "arrowNextIcon"; "moveSize": "moveSize"; "order": "order"; "remainingCount": "remainingCount"; "lazyLoading": "lazyLoading"; "actions": "actions"; }, { "onActiveChange": "onActiveChange"; }, never, never>;
+    static ɵfac: ɵngcc0.ɵɵFactoryDeclaration<NgxGalleryThumbnailsComponent, never>;
+    static ɵcmp: ɵngcc0.ɵɵComponentDeclaration<NgxGalleryThumbnailsComponent, "ngx-gallery-thumbnails", never, { "selectedIndex": "selectedIndex"; "images": "images"; "links": "links"; "labels": "labels"; "linkTarget": "linkTarget"; "columns": "columns"; "rows": "rows"; "arrows": "arrows"; "arrowsAutoHide": "arrowsAutoHide"; "margin": "margin"; "clickable": "clickable"; "swipe": "swipe"; "size": "size"; "arrowPrevIcon": "arrowPrevIcon"; "arrowNextIcon": "arrowNextIcon"; "moveSize": "moveSize"; "order": "order"; "remainingCount": "remainingCount"; "lazyLoading": "lazyLoading"; "actions": "actions"; }, { "onActiveChange": "onActiveChange"; }, never, never>;
 }
 
 //# sourceMappingURL=ngx-gallery-thumbnails.component.d.ts.map

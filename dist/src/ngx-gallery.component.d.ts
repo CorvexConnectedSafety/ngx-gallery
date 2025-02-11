@@ -74,8 +74,8 @@ export declare class NgxGalleryComponent implements OnInit, DoCheck, AfterViewIn
     private sortOptions;
     private setOptions;
     private combineOptions;
-    static ɵfac: ɵngcc0.ɵɵFactoryDef<NgxGalleryComponent, never>;
-    static ɵcmp: ɵngcc0.ɵɵComponentDefWithMeta<NgxGalleryComponent, "ngx-gallery", never, { "options": "options"; "images": "images"; }, { "imagesReady": "imagesReady"; "change": "change"; "previewOpen": "previewOpen"; "previewClose": "previewClose"; "previewChange": "previewChange"; }, never, never>;
+    static ɵfac: ɵngcc0.ɵɵFactoryDeclaration<NgxGalleryComponent, never>;
+    static ɵcmp: ɵngcc0.ɵɵComponentDeclaration<NgxGalleryComponent, "ngx-gallery", never, { "options": "options"; "images": "images"; }, { "imagesReady": "imagesReady"; "change": "change"; "previewOpen": "previewOpen"; "previewClose": "previewClose"; "previewChange": "previewChange"; }, never, never>;
 }
 
 //# sourceMappingURL=ngx-gallery.component.d.ts.map

@@ -9,8 +9,8 @@ export declare class NgxGalleryArrowsComponent {
     onNextClick: EventEmitter<any>;
     handlePrevClick(): void;
     handleNextClick(): void;
-    static ɵfac: ɵngcc0.ɵɵFactoryDef<NgxGalleryArrowsComponent, never>;
-    static ɵcmp: ɵngcc0.ɵɵComponentDefWithMeta<NgxGalleryArrowsComponent, "ngx-gallery-arrows", never, { "prevDisabled": "prevDisabled"; "nextDisabled": "nextDisabled"; "arrowPrevIcon": "arrowPrevIcon"; "arrowNextIcon": "arrowNextIcon"; }, { "onPrevClick": "onPrevClick"; "onNextClick": "onNextClick"; }, never, never>;
+    static ɵfac: ɵngcc0.ɵɵFactoryDeclaration<NgxGalleryArrowsComponent, never>;
+    static ɵcmp: ɵngcc0.ɵɵComponentDeclaration<NgxGalleryArrowsComponent, "ngx-gallery-arrows", never, { "prevDisabled": "prevDisabled"; "nextDisabled": "nextDisabled"; "arrowPrevIcon": "arrowPrevIcon"; "arrowNextIcon": "arrowNextIcon"; }, { "onPrevClick": "onPrevClick"; "onNextClick": "onNextClick"; }, never, never>;
 }
 
 //# sourceMappingURL=ngx-gallery-arrows.component.d.ts.map

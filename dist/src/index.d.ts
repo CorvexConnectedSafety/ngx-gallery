@@ -26,12 +26,13 @@ export * from './ngx-gallery-ordered-image.model';
 export * from './ngx-gallery-action.model';
 export declare class CustomHammerConfig extends HammerGestureConfig {
     overrides: any;
-    static ɵfac: ɵngcc0.ɵɵFactoryDef<CustomHammerConfig, never>;
-    static ɵprov: ɵngcc0.ɵɵInjectableDef<CustomHammerConfig>;
+    static ɵfac: ɵngcc0.ɵɵFactoryDeclaration<CustomHammerConfig, never>;
+    static ɵprov: ɵngcc0.ɵɵInjectableDeclaration<CustomHammerConfig>;
 }
 export declare class NgxGalleryModule {
-    static ɵmod: ɵngcc0.ɵɵNgModuleDefWithMeta<NgxGalleryModule, [typeof ɵngcc1.NgxGalleryActionComponent, typeof ɵngcc2.NgxGalleryArrowsComponent, typeof ɵngcc3.NgxGalleryBulletsComponent, typeof ɵngcc4.NgxGalleryImageComponent, typeof ɵngcc5.NgxGalleryThumbnailsComponent, typeof ɵngcc6.NgxGalleryPreviewComponent, typeof ɵngcc7.NgxGalleryComponent], [typeof ɵngcc8.CommonModule], [typeof ɵngcc7.NgxGalleryComponent]>;
-    static ɵinj: ɵngcc0.ɵɵInjectorDef<NgxGalleryModule>;
+    static ɵfac: ɵngcc0.ɵɵFactoryDeclaration<NgxGalleryModule, never>;
+    static ɵmod: ɵngcc0.ɵɵNgModuleDeclaration<NgxGalleryModule, [typeof ɵngcc1.NgxGalleryActionComponent, typeof ɵngcc2.NgxGalleryArrowsComponent, typeof ɵngcc3.NgxGalleryBulletsComponent, typeof ɵngcc4.NgxGalleryImageComponent, typeof ɵngcc5.NgxGalleryThumbnailsComponent, typeof ɵngcc6.NgxGalleryPreviewComponent, typeof ɵngcc7.NgxGalleryComponent], [typeof ɵngcc8.CommonModule], [typeof ɵngcc7.NgxGalleryComponent]>;
+    static ɵinj: ɵngcc0.ɵɵInjectorDeclaration<NgxGalleryModule>;
 }
 
 //# sourceMappingURL=index.d.ts.map

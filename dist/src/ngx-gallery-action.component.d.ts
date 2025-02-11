@@ -6,8 +6,8 @@ export declare class NgxGalleryActionComponent {
     titleText: string;
     onClick: EventEmitter<Event>;
     handleClick(event: Event): void;
-    static ɵfac: ɵngcc0.ɵɵFactoryDef<NgxGalleryActionComponent, never>;
-    static ɵcmp: ɵngcc0.ɵɵComponentDefWithMeta<NgxGalleryActionComponent, "ngx-gallery-action", never, { "disabled": "disabled"; "titleText": "titleText"; "icon": "icon"; }, { "onClick": "onClick"; }, never, never>;
+    static ɵfac: ɵngcc0.ɵɵFactoryDeclaration<NgxGalleryActionComponent, never>;
+    static ɵcmp: ɵngcc0.ɵɵComponentDeclaration<NgxGalleryActionComponent, "ngx-gallery-action", never, { "disabled": "disabled"; "titleText": "titleText"; "icon": "icon"; }, { "onClick": "onClick"; }, never, never>;
 }
 
 //# sourceMappingURL=ngx-gallery-action.component.d.ts.map

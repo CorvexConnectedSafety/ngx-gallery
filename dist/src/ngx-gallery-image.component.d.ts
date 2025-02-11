@@ -48,8 +48,8 @@ export declare class NgxGalleryImageComponent implements OnInit, OnChanges {
     canShowNext(): boolean;
     canShowPrev(): boolean;
     getSafeUrl(image: string): SafeStyle;
-    static ɵfac: ɵngcc0.ɵɵFactoryDef<NgxGalleryImageComponent, never>;
-    static ɵcmp: ɵngcc0.ɵɵComponentDefWithMeta<NgxGalleryImageComponent, "ngx-gallery-image", never, { "arrows": "arrows"; "selectedIndex": "selectedIndex"; "images": "images"; "clickable": "clickable"; "arrowsAutoHide": "arrowsAutoHide"; "swipe": "swipe"; "animation": "animation"; "size": "size"; "arrowPrevIcon": "arrowPrevIcon"; "arrowNextIcon": "arrowNextIcon"; "autoPlay": "autoPlay"; "autoPlayInterval": "autoPlayInterval"; "autoPlayPauseOnHover": "autoPlayPauseOnHover"; "infinityMove": "infinityMove"; "lazyLoading": "lazyLoading"; "actions": "actions"; "descriptions": "descriptions"; "showDescription": "showDescription"; "bullets": "bullets"; }, { "onClick": "onClick"; "onActiveChange": "onActiveChange"; }, never, never>;
+    static ɵfac: ɵngcc0.ɵɵFactoryDeclaration<NgxGalleryImageComponent, never>;
+    static ɵcmp: ɵngcc0.ɵɵComponentDeclaration<NgxGalleryImageComponent, "ngx-gallery-image", never, { "arrows": "arrows"; "selectedIndex": "selectedIndex"; "images": "images"; "clickable": "clickable"; "arrowsAutoHide": "arrowsAutoHide"; "swipe": "swipe"; "animation": "animation"; "size": "size"; "arrowPrevIcon": "arrowPrevIcon"; "arrowNextIcon": "arrowNextIcon"; "autoPlay": "autoPlay"; "autoPlayInterval": "autoPlayInterval"; "autoPlayPauseOnHover": "autoPlayPauseOnHover"; "infinityMove": "infinityMove"; "lazyLoading": "lazyLoading"; "actions": "actions"; "descriptions": "descriptions"; "showDescription": "showDescription"; "bullets": "bullets"; }, { "onClick": "onClick"; "onActiveChange": "onActiveChange"; }, never, never>;
 }
 
 //# sourceMappingURL=ngx-gallery-image.component.d.ts.map

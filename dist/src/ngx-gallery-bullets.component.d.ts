@@ -6,8 +6,8 @@ export declare class NgxGalleryBulletsComponent {
     onChange: EventEmitter<any>;
     getBullets(): number[];
     handleChange(event: Event, index: number): void;
-    static ɵfac: ɵngcc0.ɵɵFactoryDef<NgxGalleryBulletsComponent, never>;
-    static ɵcmp: ɵngcc0.ɵɵComponentDefWithMeta<NgxGalleryBulletsComponent, "ngx-gallery-bullets", never, { "active": "active"; "count": "count"; }, { "onChange": "onChange"; }, never, never>;
+    static ɵfac: ɵngcc0.ɵɵFactoryDeclaration<NgxGalleryBulletsComponent, never>;
+    static ɵcmp: ɵngcc0.ɵɵComponentDeclaration<NgxGalleryBulletsComponent, "ngx-gallery-bullets", never, { "active": "active"; "count": "count"; }, { "onChange": "onChange"; }, never, never>;
 }
 
 //# sourceMappingURL=ngx-gallery-bullets.component.d.ts.map
